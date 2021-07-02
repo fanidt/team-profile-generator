@@ -27,7 +27,8 @@
   ![alt text](https://img.shields.io/badge/license-MIT-green)
   
   ##Screenshot: <br />
-    ![alt text](sdfgh)
+    ![alt text](./example/Screen Shot 2021-07-01 at 11.49.09 PM.png)()
+  
   
   ## Installation: <br />
   install
