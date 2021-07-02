@@ -258,7 +258,7 @@ function engineerHTML(data) {
     <div class="card-body">
     ID: ${data.id} </br>
     Email:<a href="mailto: "> ${data.email}</a> </br>
-    Github: <a rel="https://github.com/${data.github} "> ${data.github} </a>
+    Github:<a href="https://www.Github.com/${data.github}">${data.github}</a>
     </div>
     </div>
     </div>

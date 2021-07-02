@@ -26,15 +26,20 @@
   ## Badges: <br />
   ![alt text](https://img.shields.io/badge/license-MIT-green)
   
-  ##Screenshot: <br />
-    ![alt text](./example/Screen Shot 2021-07-01 at 11.49.09 PM.png)()
+  ## Screenshot: <br />
+    ![alt text](./example/Screen Shot 2021-07-01 at 11.49.09 PM.png)(https://youtu.be/1w5lRhp-l6E)
   
   
   ## Installation: <br />
-  install
+  Clone the file to your preferred folder </br>
+  Open the terminal and navigate to the file (cd) </br>
+  Run npm install </br>
+  Run node index </br>
+
 
   ## Usage: <br />
-  
+  Answer the questions
+  Your file is generated!
 
   ## Support: <br />
   Contact us by email at: fanidt@gmail.com <br />
