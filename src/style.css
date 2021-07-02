@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #191654,#43C6AC);
+  background-color:  #0f0d38;
   height: 100%;
   width: 100%;
 }
@@ -11,32 +11,39 @@ body {
 .card {
   background-color: white;
   box-shadow: 5px 5px 10px #0000000c;
-  padding: 24px;
+ 
   transition: transform .2s;
   border-radius: 8px;
   margin-bottom: 20px;
   border-left: turquoise 20px solid;
-}
 
-.card-header{
-
-  background-color: turquoise;
-}
-
-.flex-layout {
   display: flex;
   flex: auto;
   flex-direction: row;
-  min-width: 320px;
-  height: fit-content;
-  border-radius: 8px;
+  
+  
 }
 
-.flex-layout-inner {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
+.card-header{
+  
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  font-size:40px;
+  color:white;
+  background-color: turquoise;
 }
+
+.card-body{
+  padding: 20px;
+  text-align: left;
+  font-size: 30px;
+  width: 60%;
+  
+}
+
+
+
 
 .card:hover {
   transform: scale(1.05);
@@ -56,10 +63,13 @@ h1 {
     color: white;
     text-shadow: 2px 2px 5px #00000023;
     letter-spacing: -2px;
-    font-size: 48px;
+    font-size: 60px;
 }
 
 h3 {
-    padding-left: 16px;
+  font-size: 50px;
+  color: white;
+    padding: 0;
+    margin: 0;
 }
 

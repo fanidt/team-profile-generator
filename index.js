@@ -37,7 +37,8 @@ const fixedHTML = `<!DOCTYPE html>
 <body>
 <header>
   <h1>My team</h1> 
-  </header>`
+  </header>
+  <div class="row">`
 
 function writeToFile() {
     return fs.writeFile("./src/index.html", fixedHTML, function (err) {
@@ -61,6 +62,7 @@ writeToFile()
 
 function addClosingTags() {
     let closingTags = `
+    </div>
     </body> 
     </html>`
 
@@ -159,13 +161,16 @@ function managerQ(employeeInfo) {
 function managerHTML(data) {
     let cardMan = "";
     cardMan = `
+    <div class="column">
     <div class="card">
-    <div class="card-header">${data.empName} 
+    <div class="card-header">
+    <h3>${data.empName} </h3>
     </br> Manager </div>
     <div class="card-body">
     ID: ${data.id} </br>
-    email:<a href="mailto: ${data.email}"> </br>
+    Email:<a href="mailto: "> ${data.email}</a> </br>
     Office Number: ${data.officeNum} 
+    </div>
     </div>
     </div>
     `;
@@ -202,14 +207,16 @@ function internQ(employeeInfo) {
 function internHTML(data) {
     let cardInt = "";
     cardInt = `
+    <div class="column">
     <div class="card">
     <div class="card-header">
     <h3>${data.empName} </h3>
     </br> Intern </div>
     <div class="card-body">
     ID: ${data.id} </br>
-    email:<a href="mailto: ${data.email}"> </br>
+    Email:<a href="mailto: "> ${data.email}</a></br>
     School Name: ${data.school}
+    </div>
     </div>
     </div>
     `
@@ -242,14 +249,17 @@ function engineerQ(employeeInfo) {
 
 function engineerHTML(data) {
     let cardEng = "";
-    cardEng = `<div class="card">
+    cardEng = `
+    <div class="column">
+    <div class="card">
     <div class="card-header">
     <h3>${data.empName} </h3>
     </br> Engineer</div>
     <div class="card-body">
     ID: ${data.id} </br>
-    email:<a href="mailto: ${data.email}"> </br>
+    Email:<a href="mailto: "> ${data.email}</a> </br>
     Github: <a rel="https://github.com/${data.github} "> ${data.github} </a>
+    </div>
     </div>
     </div>
     `
