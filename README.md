@@ -27,7 +27,7 @@
   ![alt text](https://img.shields.io/badge/license-MIT-green)
   
   ## Screenshot: <br />
-    ![alt text](./example/Screen Shot 2021-07-01 at 11.49.09 PM.png)(https://youtu.be/1w5lRhp-l6E)
+    ![alt text](https://github.com/fanidt/team-profile-generator/blob/main/example/Screen%20Shot%202021-07-01%20at%2011.49.09%20PM.png)(https://youtu.be/1w5lRhp-l6E)
   
   
   ## Installation: <br />
